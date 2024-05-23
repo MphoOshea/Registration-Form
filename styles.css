@@ -1,0 +1,80 @@
+/* styles.css */
+
+/* Body and Main Container */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.form {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #00fffb13;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 8px -8px 8px rgb(0, 238, 255);
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Paragraph */
+p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #131ae0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+input[type="submit"]:focus {
+    outline: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .form {
+        width: 90%;
+    }
+}

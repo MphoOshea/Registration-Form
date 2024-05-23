@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Survey Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Survey form"/>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Your custom CSS file -->
+    <link rel="stylesheet" href="./styles.css" type="text/css" media="screen" />
+</head>
+<body>
+<main class="container">
+    <div class="form">
+        <h1>Registration Form</h1>
+        <p>Fill the registration form</p>
+        <form id="r-form" action="#" method="post">
+            <div class="form-group">
+                <label for="full-names">Full Names</label>
+                <input type="text" class="form-control" name="full-names" id="full-names" placeholder="Enter full name" required/>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" name="email" id="email" placeholder="email@example.com" required/>
+            </div>
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" class="form-control" name="Username" id="username" placeholder="Username" required/>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" name="password" id="password" placeholder="Enter password" required/>
+            </div>
+            <div class="form-group">
+                <label for="Confirm-password">Confirm Password</label>
+                <input type="password" class="form-control" name="Confirm-password" id="Confirm-password" placeholder="Confirm password" required/>
+            </div>
+            <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+        </form>
+    </div>
+</main>
+
+<!-- Bootstrap JS (optional) -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
